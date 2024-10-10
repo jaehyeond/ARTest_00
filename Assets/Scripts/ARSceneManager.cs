@@ -12,7 +12,7 @@ public class ARSceneManager : MonoBehaviour
 
     public void GotoScene(string sceneName)
     {
-        SceneManager.LoadScene("sceneName", LoadSceneMode.Single);
+        SceneManager.LoadScene(sceneName);
     }
 
 }
